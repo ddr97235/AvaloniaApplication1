@@ -7,11 +7,25 @@
         x:Class="ViewLibrary.Window1"
         Title="Window1">
 
+	<!--<Design.DesignStyle>
+		<StyleInclude Source="avares://ResourseLibrary/ResourceStyles.axaml" />		
+	</Design.DesignStyle>-->
+	
 	<Design.DataContext>
 		<vm:MainWindowViewModel/>
 	</Design.DataContext>
-	<StackPanel>
-		<TextBlock Text="Окошко из решения ViewLibrary"/>
-		<TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-	</StackPanel>
+	<Window.Styles>
+		<StyleInclude Source="avares://ResourseLibrary/ResourceStyles.axaml" />
+	</Window.Styles>
+	
+	
+	<!--<Window.ContentTemplate>
+		<DataTemplate>-->
+			<StackPanel>
+				<TextBlock Text="Окошко из решения ViewLibrary"/>
+				<TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+				<PathIcon Data="{StaticResource store_icon}" />
+			</StackPanel>
+		<!--</DataTemplate>
+	</Window.ContentTemplate>-->
 </Window>

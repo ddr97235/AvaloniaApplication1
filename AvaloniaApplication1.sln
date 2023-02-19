@@ -12,6 +12,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewLibrary", "ViewLibrary\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewModelLibraries", "ViewModelLibraries\ViewModelLibraries.csproj", "{99618C2D-85AB-48E3-BA10-FBA22BFC9B51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResourseLibrary", "ResourseLibrary\ResourseLibrary.csproj", "{20C78AAE-1386-46C0-AE58-3D8CA3548B01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +32,10 @@ Global
 		{99618C2D-85AB-48E3-BA10-FBA22BFC9B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99618C2D-85AB-48E3-BA10-FBA22BFC9B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99618C2D-85AB-48E3-BA10-FBA22BFC9B51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20C78AAE-1386-46C0-AE58-3D8CA3548B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20C78AAE-1386-46C0-AE58-3D8CA3548B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20C78AAE-1386-46C0-AE58-3D8CA3548B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20C78AAE-1386-46C0-AE58-3D8CA3548B01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
